@@ -1,22 +1,9 @@
 D:\Software\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=D:/Software/w64devkit/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/Software/w64devkit/bin/g++.exe -G "MinGW Makefiles" -S D:\PROJECT\learn_opencv_cpp -B D:\PROJECT\learn_opencv_cpp\cmake-build-release
--- The C compiler identification is GNU 14.2.0
--- The CXX compiler identification is GNU 14.2.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: D:/Software/w64devkit/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: D:/Software/w64devkit/bin/g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- OpenCV ARCH: x64
 -- OpenCV RUNTIME: mingw
 -- OpenCV STATIC: OFF
--- Found OpenCV: D:/Software/OpenCV/opencv-4.10.0-builds/install (found version "4.10.0") 
 -- Found OpenCV 4.10.0 in D:/Software/OpenCV/opencv-4.10.0-builds/install/x64/mingw/lib
 -- You might need to add D:/Software/OpenCV/opencv-4.10.0-builds/install/x64/mingw/bin to your PATH to be able to run your applications.
--- Configuring done (3.0s)
+-- Configuring done (0.2s)
 -- Generating done (0.0s)
 -- Build files have been written to: D:/PROJECT/learn_opencv_cpp/cmake-build-release

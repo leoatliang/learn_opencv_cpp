@@ -10,6 +10,6 @@ find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(OpencvTest main.cpp)
+add_executable(OpencvTest 03.cpp)
 
 target_link_libraries(OpencvTest ${OpenCV_LIBS})

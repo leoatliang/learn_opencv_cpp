@@ -68,29 +68,29 @@ include CMakeFiles/OpencvTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpencvTest.dir/flags.make
 
-CMakeFiles/OpencvTest.dir/main.cpp.obj: CMakeFiles/OpencvTest.dir/flags.make
-CMakeFiles/OpencvTest.dir/main.cpp.obj: CMakeFiles/OpencvTest.dir/includes_CXX.rsp
-CMakeFiles/OpencvTest.dir/main.cpp.obj: D:/PROJECT/learn_opencv_cpp/main.cpp
-CMakeFiles/OpencvTest.dir/main.cpp.obj: CMakeFiles/OpencvTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\PROJECT\learn_opencv_cpp\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpencvTest.dir/main.cpp.obj"
-	D:\Software\w64devkit\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpencvTest.dir/main.cpp.obj -MF CMakeFiles\OpencvTest.dir\main.cpp.obj.d -o CMakeFiles\OpencvTest.dir\main.cpp.obj -c D:\PROJECT\learn_opencv_cpp\main.cpp
+CMakeFiles/OpencvTest.dir/03.cpp.obj: CMakeFiles/OpencvTest.dir/flags.make
+CMakeFiles/OpencvTest.dir/03.cpp.obj: CMakeFiles/OpencvTest.dir/includes_CXX.rsp
+CMakeFiles/OpencvTest.dir/03.cpp.obj: D:/PROJECT/learn_opencv_cpp/03.cpp
+CMakeFiles/OpencvTest.dir/03.cpp.obj: CMakeFiles/OpencvTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\PROJECT\learn_opencv_cpp\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpencvTest.dir/03.cpp.obj"
+	D:\Software\w64devkit\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpencvTest.dir/03.cpp.obj -MF CMakeFiles\OpencvTest.dir\03.cpp.obj.d -o CMakeFiles\OpencvTest.dir\03.cpp.obj -c D:\PROJECT\learn_opencv_cpp\03.cpp
 
-CMakeFiles/OpencvTest.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpencvTest.dir/main.cpp.i"
-	D:\Software\w64devkit\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\PROJECT\learn_opencv_cpp\main.cpp > CMakeFiles\OpencvTest.dir\main.cpp.i
+CMakeFiles/OpencvTest.dir/03.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpencvTest.dir/03.cpp.i"
+	D:\Software\w64devkit\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\PROJECT\learn_opencv_cpp\03.cpp > CMakeFiles\OpencvTest.dir\03.cpp.i
 
-CMakeFiles/OpencvTest.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpencvTest.dir/main.cpp.s"
-	D:\Software\w64devkit\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\PROJECT\learn_opencv_cpp\main.cpp -o CMakeFiles\OpencvTest.dir\main.cpp.s
+CMakeFiles/OpencvTest.dir/03.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpencvTest.dir/03.cpp.s"
+	D:\Software\w64devkit\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\PROJECT\learn_opencv_cpp\03.cpp -o CMakeFiles\OpencvTest.dir\03.cpp.s
 
 # Object files for target OpencvTest
 OpencvTest_OBJECTS = \
-"CMakeFiles/OpencvTest.dir/main.cpp.obj"
+"CMakeFiles/OpencvTest.dir/03.cpp.obj"
 
 # External object files for target OpencvTest
 OpencvTest_EXTERNAL_OBJECTS =
 
-OpencvTest.exe: CMakeFiles/OpencvTest.dir/main.cpp.obj
+OpencvTest.exe: CMakeFiles/OpencvTest.dir/03.cpp.obj
 OpencvTest.exe: CMakeFiles/OpencvTest.dir/build.make
 OpencvTest.exe: D:/Software/OpenCV/opencv-4.10.0-builds/install/x64/mingw/lib/libopencv_gapi4100.dll.a
 OpencvTest.exe: D:/Software/OpenCV/opencv-4.10.0-builds/install/x64/mingw/lib/libopencv_highgui4100.dll.a

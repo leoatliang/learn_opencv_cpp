@@ -128,29 +128,29 @@ OpencvTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/build
 .PHONY : OpencvTest/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+03.obj: 03.cpp.obj
+.PHONY : 03.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+03.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/03.cpp.obj
+.PHONY : 03.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+03.i: 03.cpp.i
+.PHONY : 03.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/main.cpp.i
-.PHONY : main.cpp.i
+03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/03.cpp.i
+.PHONY : 03.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+03.s: 03.cpp.s
+.PHONY : 03.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/main.cpp.s
-.PHONY : main.cpp.s
+03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/03.cpp.s
+.PHONY : 03.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OpencvTest
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... 03.obj
+	@echo ... 03.i
+	@echo ... 03.s
 .PHONY : help
 
 

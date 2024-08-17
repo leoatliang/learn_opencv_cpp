@@ -151,10 +151,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "D:/Software/w64devkit/bin/g++.exe"
 		},
 		{
@@ -295,10 +295,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "D:/Software/w64devkit/bin/gcc.exe"
 		},
 		{
@@ -1280,6 +1280,42 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[D:/Software/OpenCV/opencv-4.10.0-builds/install][v4.10.0()]"
+		},
+		{
+			"name" : "OpencvRun_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/PROJECT/learn_opencv_cpp/cmake-build-debug"
+		},
+		{
+			"name" : "OpencvRun_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "OpencvRun_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/PROJECT/learn_opencv_cpp"
 		},
 		{
 			"name" : "OpencvTest_BINARY_DIR",

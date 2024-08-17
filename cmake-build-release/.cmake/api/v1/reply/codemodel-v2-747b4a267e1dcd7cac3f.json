@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "OpencvTest",
+					"name" : "OpencvRun",
 					"targetIndexes" : 
 					[
 						0
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OpencvTest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OpencvTest-Release-6350792ffa26ed3d6a89.json",
+					"jsonFile" : "target-OpencvTest-Release-a87eb158ad029b71268e.json",
 					"name" : "OpencvTest",
 					"projectIndex" : 0
 				}
