@@ -10,6 +10,6 @@ find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(OpencvTest 03_creation_and_assignment.cpp)
+add_executable(OpencvTest 05_图像像素的算术操作.cpp)
 
 target_link_libraries(OpencvTest ${OpenCV_LIBS})

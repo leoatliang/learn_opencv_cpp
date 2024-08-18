@@ -80,12 +80,12 @@ clean: CMakeFiles/OpencvTest.dir/clean
 CMakeFiles/OpencvTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJECT\learn_opencv_cpp\cmake-build-release\CMakeFiles --progress-num=1,2 "Built target OpencvTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJECT\learn_opencv_cpp\cmake-build-release\CMakeFiles --progress-num=1,2,3 "Built target OpencvTest"
 .PHONY : CMakeFiles/OpencvTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpencvTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJECT\learn_opencv_cpp\cmake-build-release\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJECT\learn_opencv_cpp\cmake-build-release\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OpencvTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJECT\learn_opencv_cpp\cmake-build-release\CMakeFiles 0
 .PHONY : CMakeFiles/OpencvTest.dir/rule

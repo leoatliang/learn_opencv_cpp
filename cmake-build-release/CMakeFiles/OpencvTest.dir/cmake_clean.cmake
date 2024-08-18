@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OpencvTest.dir/03.cpp.obj"
-  "CMakeFiles/OpencvTest.dir/03.cpp.obj.d"
+  "CMakeFiles/OpencvTest.dir/04_图像像素的读写操作.cpp.obj"
+  "CMakeFiles/OpencvTest.dir/04_图像像素的读写操作.cpp.obj.d"
+  "CMakeFiles/OpencvTest.dir/05_图像像素的算术操作.cpp.obj"
+  "CMakeFiles/OpencvTest.dir/05_图像像素的算术操作.cpp.obj.d"
   "OpencvTest.exe"
   "OpencvTest.exe.manifest"
   "OpencvTest.pdb"

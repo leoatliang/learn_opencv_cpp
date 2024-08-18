@@ -863,7 +863,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "OpencvRun"
+			"value" : "OpencvTest"
 		},
 		{
 			"name" : "CMAKE_RANLIB",

@@ -128,29 +128,53 @@ OpencvTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/build
 .PHONY : OpencvTest/fast
 
-03.obj: 03.cpp.obj
-.PHONY : 03.obj
+04_图像像素的读写操作.obj: 04_图像像素的读写操作.cpp.obj
+.PHONY : 04_图像像素的读写操作.obj
 
 # target to build an object file
-03.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/03.cpp.obj
-.PHONY : 03.cpp.obj
+04_图像像素的读写操作.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/04_图像像素的读写操作.cpp.obj
+.PHONY : 04_图像像素的读写操作.cpp.obj
 
-03.i: 03.cpp.i
-.PHONY : 03.i
+04_图像像素的读写操作.i: 04_图像像素的读写操作.cpp.i
+.PHONY : 04_图像像素的读写操作.i
 
 # target to preprocess a source file
-03.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/03.cpp.i
-.PHONY : 03.cpp.i
+04_图像像素的读写操作.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/04_图像像素的读写操作.cpp.i
+.PHONY : 04_图像像素的读写操作.cpp.i
 
-03.s: 03.cpp.s
-.PHONY : 03.s
+04_图像像素的读写操作.s: 04_图像像素的读写操作.cpp.s
+.PHONY : 04_图像像素的读写操作.s
 
 # target to generate assembly for a file
-03.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/03.cpp.s
-.PHONY : 03.cpp.s
+04_图像像素的读写操作.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/04_图像像素的读写操作.cpp.s
+.PHONY : 04_图像像素的读写操作.cpp.s
+
+05_图像像素的算术操作.obj: 05_图像像素的算术操作.cpp.obj
+.PHONY : 05_图像像素的算术操作.obj
+
+# target to build an object file
+05_图像像素的算术操作.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/05_图像像素的算术操作.cpp.obj
+.PHONY : 05_图像像素的算术操作.cpp.obj
+
+05_图像像素的算术操作.i: 05_图像像素的算术操作.cpp.i
+.PHONY : 05_图像像素的算术操作.i
+
+# target to preprocess a source file
+05_图像像素的算术操作.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/05_图像像素的算术操作.cpp.i
+.PHONY : 05_图像像素的算术操作.cpp.i
+
+05_图像像素的算术操作.s: 05_图像像素的算术操作.cpp.s
+.PHONY : 05_图像像素的算术操作.s
+
+# target to generate assembly for a file
+05_图像像素的算术操作.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpencvTest.dir\build.make CMakeFiles/OpencvTest.dir/05_图像像素的算术操作.cpp.s
+.PHONY : 05_图像像素的算术操作.cpp.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OpencvTest
-	@echo ... 03.obj
-	@echo ... 03.i
-	@echo ... 03.s
+	@echo ... 04_图像像素的读写操作.obj
+	@echo ... 04_图像像素的读写操作.i
+	@echo ... 04_图像像素的读写操作.s
+	@echo ... 05_图像像素的算术操作.obj
+	@echo ... 05_图像像素的算术操作.i
+	@echo ... 05_图像像素的算术操作.s
 .PHONY : help
 
 
